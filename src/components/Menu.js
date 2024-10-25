@@ -34,7 +34,10 @@ export default class Menu extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink to="/link" className="nav-link">Link</NavLink>
+                                <NavLink to="/create" className="nav-link">Nuevo personaje</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink to="/update" className="nav-link">Modificar personaje</NavLink>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

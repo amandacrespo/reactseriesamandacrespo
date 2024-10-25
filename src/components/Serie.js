@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import axios from "axios"
 import Global from "./Global"
 import { NavLink } from 'react-router-dom'
-import Personajes from './Personajes'
 
 export default class Serie extends Component {
     state = {
